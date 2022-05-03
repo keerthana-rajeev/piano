@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online piano</title>
+    <script src="Assets/script/script.js" defer></script>
+    <link rel="icon" href="Assets/favicon/piano.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="Assets/favicon/piano.png" type="image/png" sizes="32x32">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Record music and learn from examples available -->
+    <div class="wrapper">
+        <div class="audio-wrapper">
+          <audio src="" controls class="js-audio audio"></audio>
+        </div>
+        <div class="toolbar">
+          <button class="js-start button button--start">Start</button>
+          <button class="js-stop button button--stop">Stop</button>
+        </div>
+    </div>
+    <div class="visuals"></div>
+    <div class="piano">
+        <div class="key white">
+            <div class="white-label">C</div>
+            <audio src="Assets/Notes/C.wav" class="sound"></audio>
+        </div>
+        <div class="key black">
+            <div class="label">C #</div>
+            <audio src="Assets/Notes/Db.wav" class="sound"></audio>
+        </div>
+        <div class="key white">
+            <div class="white-label">D</div>
+            <audio src="Assets/Notes/D.wav" class="sound"></audio>
+        </div>
+        <div class="key black">
+            <div class="label">D #</div>
+            <audio src="Assets/Notes/Eb.wav" class="sound"></audio>
+        </div>
+        <div class="key white">
+            <div class="white-label">E</div>
+            <audio src="Assets/Notes/E.wav" class="sound"></audio>
+        </div>
+        <div class="key white">
+            <div class="white-label">F</div>
+            <audio src="Assets/Notes/F.wav" class="sound"></audio>
+        </div>
+        <div class="key black">
+            <div class="label">F #</div>
+            <audio src="Assets/Notes/Gb.wav" class="sound"></audio>
+        </div>
+        <div class="key white">
+            <div class="white-label">G</div>
+            <audio src="Assets/Notes/G.wav" class="sound"></audio>
+        </div>
+        <div class="key black">
+            <div class="label">G #</div>
+            <audio src="Assets/Notes/Ab.wav" class="sound"></audio>
+        </div>
+        <div class="key white">
+            <div class="white-label">A</div>
+            <audio src="Assets/Notes/A.wav" class="sound"></audio>
+        </div>
+        <div class="key black">
+            <div class="label">A #</div>
+            <audio src="Assets/Notes/Bb.wav" class="sound"></audio>
+        </div>
+        <div class="key white">
+            <div class="white-label">B</div>
+            <audio src="Assets/Notes/B.wav" class="sound"></audio>
+        </div>
+    </div>
+    <div class="attributions">Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</body>
+</html>
